@@ -130,3 +130,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Additional practice files
+cleaning_data.ipynb
+jupyter_practice.ipynb
+cleaning_student_names.ipynb
+pandas_practice.ipynb
