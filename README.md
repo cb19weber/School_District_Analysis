@@ -1,12 +1,21 @@
 # School_District_Analysis
 
 ## Overview of Project
+The goal of this project is to analyze a raw dataset containing student test scores from various schools within a school district. The user of the final reports would like to see some key metrics on what affected student testing performance and then to use that information to make decisions on future funding awards within the district.
 
 ### Purpose
+Explore the Python Pandas library, learning to use the library to read data from a file and create meaningful data visuals for analysis. Specifically learn how to create DataFrames, how to manipulate them to contain useful information, and how to build off of DataFrames to build summary reports containing key metrics.
 
 ## Analysis and Challenges
 
 ### Analysis of PyCitySchools Module Activity
+There are a number of useful reports initially created from the guided module activity, including a distict summary table and associated tables to narrow down on specific variables that may have contributed to student success or lack thereof in the district testing.
+
+<p align="center">
+  <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/top_five_original.png" />
+</p>
+
+The initial analysis of the entire dataset revealed the top five performing schools in the district. We are then left to ponder, what exactly separated these schools from the pack?
 
 ### Analysis of PyCitySchools Challenge
 
