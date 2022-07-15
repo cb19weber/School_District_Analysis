@@ -6,9 +6,9 @@
 
 ## Analysis and Challenges
 
-### Analysis of Outcomes Based on Launch Date
+### Analysis of PyCitySchools Module Activity
 
-### Analysis of Outcomes Based on Goals
+### Analysis of PyCitySchools Challenge
 
 ### Challenges and Difficulties Encountered
 
