@@ -15,7 +15,11 @@ There are a number of useful reports initially created from the guided module ac
   <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/top_five_original.png" />
 </p>
 
-The initial analysis of the entire dataset revealed the top five performing schools in the district. We are then left to ponder, what exactly separated these schools from the pack?
+The initial analysis of the entire dataset revealed the top five performing schools in the district. We are then left to ponder, what exactly separated these schools from the pack? There is a significant amount of data present even in the above <i>summary</i> table. A common assumption might be that the schools with the highst levels of funding result in the greatest student success.
+
+<p align="center">
+  <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/spending_summary_original.png" />
+</p>
 
 ### Analysis of PyCitySchools Challenge
 
