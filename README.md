@@ -29,7 +29,12 @@ While a seemingly striking dichotomy between charter and district schools was ex
   <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/size_summary_original.png" />
 </p>
 
+While it may have seemed that charter schools held a clear advantage, the truth is more likely revealed in school size. In fact the largest charter school was home to only 2,283 students; conversely the <i>smallest</i> district school had to make room for 2,739 students. Multiple district schools in the dataset are home to between four and five thousand students. The revelation is so impactful that a reader is forced to ponder whether increasing funding per school might be inferior to just building more schools.
+
 ### Analysis of PyCitySchools Challenge
+The challenge offered some very intriguing nuance to the weekly project. One grade level at one of the schools was found to have manipulated testing data. The extent of the dishonesty was unknown, so the decision was made to eliminate that particular sliver of data from the analysis. There were multiple challenges in doing this.
+
+The data was still read from the original files, but once the DataFrames were created in jupyter notebook, the affected data had to be altered so as not to negatively impact analysis. This required isolated the data in the DataFrame and replacing values using the NumPy library with NaNs. The analysis then had to be repeated, and percentage calculations adjusted based on a different sample size. The class and school of students remained in the overall summary, but their test scores were removed. This left the dataset whole, but removed data that unfairly altered the analysis.
 
 ### Challenges and Difficulties Encountered
 There is <i>so much to learn</i> with the pandas library! This was a huge module and required a lot of getting into the documentation to understand the syntax of various functions and methods. I definitely feel like I'm on a steep learning curve, but I also feel like the experience is going to make a big difference. Being able to dig into data and build various tables to analyze, visualize, and understand it is an incredible tool.
@@ -37,3 +42,4 @@ There is <i>so much to learn</i> with the pandas library! This was a huge module
 I think my biggest challenge this week was time management with my professional obligations. But I am proud of my effort and the outcome of the work here. I am excited to continue learning pandas and implement it further in my career.
 
 ## Results
+Being able to create version specific environments within Anaconda, utilizing the Pandas library, reading data from csv or excel files, merging datasets and performing analysis has already given me some great ideas of how to apply this in my current role. I believe I can take the same tools I've learned in this module to create a great deal of automation in revenue recognition. My goal is to build DataFrames out of raw data from the ERP, merge and analyze the data to get a complete picture, and be able to author custom reports that can provide the executive committee with the best possible, most accurate information in order to make decisions that will help drive our company to great success.
