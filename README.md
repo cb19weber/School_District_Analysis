@@ -21,6 +21,14 @@ The initial analysis of the entire dataset revealed the top five performing scho
   <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/spending_summary_original.png" />
 </p>
 
+Many might be surprised to see the data point out a linear relationship that actually shows the opposite of this common assumption. While the relatively clear relationship demonstrated in the data here likely does not suggest that spending <i>less</i> on educational funding is the answer, it does demonstrate that funding and student testing results more likely are correlated than having a causal relationship.
+
+While a seemingly striking dichotomy between charter and district schools was exhibited, probably the most insightful information came from the relationship between school size and student success.
+
+<p align="center">
+  <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/size_summary_original.png" />
+</p>
+
 ### Analysis of PyCitySchools Challenge
 
 ### Challenges and Difficulties Encountered
