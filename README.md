@@ -4,7 +4,7 @@
 The goal of this project is to analyze a raw dataset containing student test scores from various schools within a school district. The user of the final reports would like to see some key metrics on what affected student testing performance and then to use that information to make decisions on future funding awards within the district.
 
 ### Purpose
-Explore the Python Pandas library, learning to use the library to read data from a file and create meaningful data visuals for analysis. Specifically learn how to create DataFrames, how to manipulate them to contain useful information, and how to build off of DataFrames to build summary reports containing key metrics.
+Explore the Python Pandas library, learning to use the library to read data from a file and create meaningful data tables for analysis. Specifically learn how to create DataFrames, how to manipulate them to contain useful information, and how to build off of DataFrames to build summary reports containing key metrics.
 
 ## Analysis and Challenges
 
@@ -15,13 +15,13 @@ There are a number of useful reports initially created from the guided module ac
   <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/top_five_original.png" />
 </p>
 
-The initial analysis of the entire dataset revealed the top five performing schools in the district. We are then left to ponder, what exactly separated these schools from the pack? There is a significant amount of data present even in the above <i>summary</i> table. A common assumption might be that the schools with the highst levels of funding result in the greatest student success.
+The initial analysis of the entire dataset revealed the top five performing schools in the district. We are then left to ponder, what exactly separated these schools from the pack? There is a significant amount of data present even in the above <i>summary</i> table. A common assumption might be that the schools with the highest levels of funding result in the greatest student success.
 
 <p align="center">
   <img src="https://github.com/cb19weber/School_District_Analysis/blob/main/Resources/spending_summary_original.png" />
 </p>
 
-Many might be surprised to see the data point out a linear relationship that actually shows the opposite of this common assumption. While the relatively clear relationship demonstrated in the data here likely does not suggest that spending <i>less</i> on educational funding is the answer, it does demonstrate that funding and student testing results more likely are correlated than having a causal relationship.
+Many might be surprised to see the data point out a linear relationship that actually shows the opposite of this common assumption. While the relatively clear relationship demonstrated in the data here likely does not suggest that spending <i>less</i> on educational funding is the answer, it does demonstrate that funding and student testing results more likely are correlated than having a causal relationship. An argument can be made here that throwing money at the lower performing schools may not provide the answer for which the school district would hope.
 
 While a seemingly striking dichotomy between charter and district schools was exhibited, probably the most insightful information came from the relationship between school size and student success.
 
